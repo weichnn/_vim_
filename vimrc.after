@@ -16,13 +16,16 @@ nmap <s-j> :wincmd j <CR>
 nmap <s-k> :wincmd k <CR>
 nmap <s-l> :wincmd l <CR>
 
+set wrap
+
 " powerline support
-python << EOF
-import sys
-sys.path.insert(0, '/usr/local/lib/python2.7/site-packages/')
-from powerline.bindings.vim import source_plugin
-source_plugin()
-EOF
+"python << EOF
+"import sys
+"sys.path.insert(0, '/usr/local/lib/python2.7/site-packages/')
+"from powerline.bindings.vim import source_plugin
+"source_plugin()
+"EOF
+
 
 " diable error sounds
 set noerrorbells
