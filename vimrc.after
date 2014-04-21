@@ -32,9 +32,9 @@ set noerrorbells
 set novisualbell
 
 " snippets variables
-let g:snips_author='Keith Yao'
-let g:snips_email ='i@yaofur.com'
-let g:snips_url ='http://kebot.me/'
+let g:snips_author='WeiC_Dai'
+let g:snips_email ='Hi@weichnn.me'
+let g:snips_url ='http://weichnn.me/'
 
 "g:always_use_first_snippet
 
